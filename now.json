@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "env": {
+    "DB_CONNECTION": "sqlite",
+    "DB_DATABASE": "database/db.sqlite"
+  },
+  "builds": [
+    {
+      "src": "*.php",
+      "use": "now-php-extra"
+    }
+  ]
+}
