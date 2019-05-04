@@ -195,7 +195,9 @@ return [
         Laravel\Socialite\SocialiteServiceProvider::class,
         /* JWT */
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
-    ],
+        /* Form */
+        Collective\Html\HtmlServiceProvider::class,
+   ],
 
     /*
     |--------------------------------------------------------------------------
