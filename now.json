@@ -5,9 +5,6 @@
     "DB_DATABASE": "database/db.sqlite"
   },
   "builds": [
-    {
-      "src": "*.php",
-      "use": "now-php-extra"
-    }
+    { "src": "*.php", "use": "@now/php", "config": { "maxLambdaSize": "15mb" } }
   ]
 }
